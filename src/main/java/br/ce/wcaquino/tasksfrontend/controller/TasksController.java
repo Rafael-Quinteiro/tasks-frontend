@@ -1,6 +1,7 @@
 package br.ce.wcaquino.tasksfrontend.controller;
 
 import java.util.List;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,6 +17,9 @@ import br.ce.wcaquino.tasksfrontend.model.Todo;
 
 @Controller
 public class TasksController {
+	
+	String teste1 = "teste1";
+	String teste1 = "teste1";
 	
 	@Value("${backend.host}")
 	private String BACKEND_HOST;
