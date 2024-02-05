@@ -18,9 +18,6 @@ import br.ce.wcaquino.tasksfrontend.model.Todo;
 @Controller
 public class TasksController {
 	
-	String teste1 = "teste1";
-	String teste1 = "teste1";
-	
 	@Value("${backend.host}")
 	private String BACKEND_HOST;
 
